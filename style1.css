@@ -1,0 +1,180 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(text/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(text/AnonymousPro-Regular.ttf);
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+ }
+
+
+ .logo_header {
+ padding: 0 60px;
+ display: flex;
+ width: 212.34px;
+ height: 53.24px;
+ flex-shrink: 0;
+    
+ }
+ 
+
+body{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background: #F1F1F1;
+  justify-content: space-between;
+
+}
+
+
+.mega-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: column;
+  gap: 24px;
+  margin: 0 auto;
+  padding: 0 110px;
+
+}
+
+
+.sneaker {
+ font-family: Anonymous Pro;
+ display: inline-block;
+ flex-direction: column;
+ width: 410px;
+ font-size: 26px;
+ margin: 0 auto;
+ padding: 20px 24px;
+ gap: 24px 24px;
+ border-radius: 12px 12px 12px 12px;
+ background: var(--white, #fff);
+}
+
+p {
+ font-family: "Anonymous Pro", sans-serif;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+
+img {
+  width: 370px;  
+}
+
+ .header-container {
+ display:flex;
+ height: 110px;
+ background-color:white ;
+ align-items: center;
+ gap: 24px;
+ justify-content: space-between;
+ border-bottom: 1px solid #A1A6B4;
+}
+
+
+.header-links {
+  color: black;
+  font-weight: 700;
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 24px;
+  margin-right: 12px;
+  padding: 0px 100px 0px 0px;
+}
+
+ .header-links-up {
+ color: black;
+  gap: 24px; 
+  }
+
+
+ .footer {
+ background-color: #121723;
+}
+
+ .footer_up {
+ height: 110px;
+ margin: 0px auto;
+ padding: 0px 15px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ max-width: 1440px;
+ border-bottom: 1px solid #A1A6B4;
+}
+
+.footer_down{
+  color: #A1A6B4;
+  text-align: center;
+  padding: 30px 0;
+  font-family: 'Anonymous Pro', monospace;}
+
+.footer_right {
+  font-family: Anonymous Pro;
+  gap: 24px; 
+  font-size: 20px;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 12px;
+  list-style-type: none;
+  font-weight: 700;
+}
+
+.main {
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+ width: 100%;
+ background-color: #F1F1F1;
+}
+
+
+.content {
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ flex: 1 0 auto;
+}
+
+.subtitle {
+  color: #121723;
+  font-family: Anonymous Pro;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  padding: 0 122px;
+  padding-bottom: 20;
+    
+}
+
+.footer_title {
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 700;
+ color: #A1A6B4;
+ text-align: center;
+ padding: 30px 0;
+ font-family: 'Anonymous Pro', monospace;
+}
+
+.footer_link {
+  color: #F1F1F1;
+}
